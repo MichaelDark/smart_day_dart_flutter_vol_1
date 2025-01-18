@@ -1,3 +1,4 @@
+/// Useful for understanding how `mocktail` works
 void main() {
   dynamic dynamicToaster = Toaster();
   dynamicToaster.makeSandwich();

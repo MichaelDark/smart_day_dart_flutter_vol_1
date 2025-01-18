@@ -1,3 +1,6 @@
+/// Useful for DTOs
+///   - including return types when 2-3 values needs to be returned
+/// If used with objects - do not forget to override equality
 void main() {
   test1();
   test2();

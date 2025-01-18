@@ -1,3 +1,5 @@
+/// Useful in widgets with children (Row/Column/Stack/etc)
+///   - especially now with the introduction of `spacing` parameter
 void main() {
   const Widget('Hey there 👋🏻').build();
   const Widget(null).build();

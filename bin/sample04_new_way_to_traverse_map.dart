@@ -1,3 +1,4 @@
+/// Useful to deconstruct any object for iteration
 void main() {
   final map = {'name': 'John', 'surname': 'Doe'};
 

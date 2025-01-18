@@ -1,5 +1,7 @@
 import 'package:characters/characters.dart';
 
+/// Do not forget about runes vs characters when processing strings
+/// Use wisely (applies to all tips & tricks)
 void main() {
   const String text = '🇺🇦';
   print('Runes:');

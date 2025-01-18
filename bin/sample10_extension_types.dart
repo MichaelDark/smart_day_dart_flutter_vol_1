@@ -1,3 +1,4 @@
+/// Useful for public APIs in packages
 void main() {
   // Without the discipline of an extension type,
   // 'int' exposes ID numbers to unsafe operations:

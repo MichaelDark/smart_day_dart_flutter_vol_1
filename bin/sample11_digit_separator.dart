@@ -1,5 +1,6 @@
 import 'package:intl/intl.dart';
 
+/// 🔥🔥🔥
 void main() {
   final wealthList = [
     const Wealth('Arnault', 233_000_000_000),

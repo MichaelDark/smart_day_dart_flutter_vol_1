@@ -1,3 +1,4 @@
+/// Useful for branching out some functionality with less nested `if` statements
 void main() {
   test([1, 2, 3, 4, 5, 6]);
   test([1, 2]);

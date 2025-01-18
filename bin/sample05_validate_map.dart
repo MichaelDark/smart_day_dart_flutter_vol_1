@@ -1,3 +1,4 @@
+/// Useful to validate and deconstruct small JSONs
 void main() {
   final json = {
     'user': ['John', 13]

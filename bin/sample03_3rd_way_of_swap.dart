@@ -1,3 +1,6 @@
+/// Useful in some algorithms implementations
+/// Useful to show off on interviews
+/// Useful to appear as an annoying, irritating interviewer
 void main() {
   swapV1();
   swapV2();
