@@ -8,7 +8,7 @@ void main() {
   }
 
   // new, using object destructing
-  for (final MapEntry(:key, :value) in map.entries) {
-    print('$key has value $value');
+  for (final MapEntry(key: id, :value) in map.entries) {
+    print('$id has value $value');
   }
 }

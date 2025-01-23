@@ -37,10 +37,8 @@ class WidgetState {
         // approach #2, noisy
         if (text != null) text,
         // approach #3, new
-        if (widget.text case var absolutelyNonNullableText?)
-          absolutelyNonNullableText
-        else
-          '*absent*',
+        if (widget.text case var text?) text,
+        if (widget.text case var text?) text else '*absent*',
       ],
     );
   }

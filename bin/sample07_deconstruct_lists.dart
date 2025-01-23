@@ -7,10 +7,12 @@ void main() {
 
 void test(List<int> list) {
   print('Testing $list');
-  final [first, ...] = list;
+  final [first, ...] = list; // same as `list.first`
   print('\tfirst $first');
-  final [..., last] = list;
+  final [..., last] = list; // same as `list.last`
   print('\tlast $last');
   final [firstAgain, ...rest, lastAgain] = list;
   print('\t$firstAgain $rest $lastAgain');
+  final [one, ...others] = list;
+  print('\t$one $others');
 }

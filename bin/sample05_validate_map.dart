@@ -13,4 +13,11 @@ void main() {
   if (json case {'user': [String name, String surname]}) {
     print('user $name $surname is present.');
   }
+
+  final json2 = {
+    'user': ['John', 'Doe']
+  };
+  if (json2 case {'user': [String name, String surname]}) {
+    print('user $name $surname is present.');
+  }
 }

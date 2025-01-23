@@ -20,8 +20,8 @@ class Wealth {
 
   @override
   String toString() {
-    final numberFormat = NumberFormat.compactSimpleCurrency(name: 'EUR');
+    final numberFormat = NumberFormat.compactSimpleCurrency(name: 'USD');
     final number = numberFormat.format(dollars);
-    return '$name has $number';
+    return '$name has $number ($dollars dollar(s))';
   }
 }

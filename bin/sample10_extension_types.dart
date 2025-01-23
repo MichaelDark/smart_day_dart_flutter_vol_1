@@ -6,6 +6,7 @@ void main() {
   myUnsafeId = myUnsafeId + 10; // This works, but shouldn't be allowed for IDs.
 
   var safeId = IdNumber(42424242);
+  safeId.id + 10; // Compile-time error: No '+' operator.
   // safeId + 10; // Compile-time error: No '+' operator.
   // myUnsafeId = safeId; // Compile-time error: Wrong type.
   myUnsafeId = safeId as int; // OK: Run-time cast to representation type.

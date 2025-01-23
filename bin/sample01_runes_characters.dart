@@ -19,4 +19,10 @@ void main() {
   for (final character in text.characters) {
     print(character);
   }
+
+  final chars = text.split('');
+  print('Split:');
+  for (final char in chars) {
+    print('$char: ${char.codeUnits}');
+  }
 }
